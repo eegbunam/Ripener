@@ -1,9 +1,10 @@
+import Auth from "./components/Auth/Auth";
 import Waitlist from "./components/Waitlist/Waitlist";
 
 function App() {
   return (
     <div>
-      <Waitlist />
+      <Auth />
     </div>
   );
 }
