@@ -1,0 +1,101 @@
+.waitlist-screen {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waitlist-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+input[type="email"] {
+  font-size: 18px;
+  padding: 16px;
+  border: none;
+  outline: none;
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+button[type="submit"] {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+  color: #ffffff;
+}
+
+.animation-container {
+  margin-top: 32px;
+}
+
+.additional-animations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.additional-animations img {
+  height: 50px;
+  width: 50px;
+}
+
+.react-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
