@@ -1,10 +1,18 @@
+import React, { useState } from "react";
 import Auth from "./components/Auth/Auth";
-import Waitlist from "./components/Waitlist/Waitlist";
+import Dashbord from "./components/Dashboard/Dashboard";
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
   return (
     <div>
-      <Auth />
+      {isAuthenticated ? (
+        <Dashbord />
+      ) : (
+        <Auth setIsAuthenticated={setIsAuthenticated} />
+      )}
+      
     </div>
   );
 }

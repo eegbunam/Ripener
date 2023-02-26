@@ -1,0 +1,73 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  overflow-y: scroll;
+  max-height: 20rem;
+  padding-right: 1rem;
+  background-color: #272727;
+  
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #5f5e6371;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project:hover {
+  background-color: #555555;
+}
+
+.project a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.project-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project-reason {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #999999;
+}
+
+.project-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.project-button:hover {
+  background-color: #0059b3;
+}
+
+.see-all-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #333333;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.see-all-button:hover {
+  background-color: #555555;
+}

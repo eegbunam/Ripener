@@ -4,7 +4,7 @@ import Lottie from "react-lottie";
 import animationData from "../../animations/Auth_Github.json";
 import "./Auth.css";
 
-const Auth = () => {
+const Auth = ({ setIsAuthenticated }) => {
   // Define Lottie animation options
   const animationOptions = {
     loop: true,
@@ -18,6 +18,7 @@ const Auth = () => {
   // Handle GitHub login
   const handleGithubLogin = () => {
     // TODO: Implement GitHub authentication logic
+    setIsAuthenticated(true);
   };
 
   return (
