@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import "./User.css";
+import source from './profile-image.png'
 
 const User = ({ name, skills, interests, github, project }) => {
   return (
@@ -15,7 +16,7 @@ const User = ({ name, skills, interests, github, project }) => {
       <div className="user-header">
         <div className="user-icon">
           <motion.img
-            src="https://www.f6s.com/content-resource/profiles/3103729_th1.jpg"
+            src={source}
             alt="user icon"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -27,10 +28,7 @@ const User = ({ name, skills, interests, github, project }) => {
           <div className="user-interest">{interests.join(", ")}</div>
         </div>
       </div>
-      <div className="user-github">
-        <FaGithub />
-        <a href={`https://github.com/${github}`}>{github}</a>
-      </div>
+    
     </motion.div>
   );
 };

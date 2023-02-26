@@ -15,7 +15,12 @@ const Auth = ({ setIsAuthenticated }) => {
     },
   };
 
-  // Handle GitHub logi
+  // Handle GitHub login
+  const handleGithubLogin = () => {
+    // TODO: Implement GitHub authentication logic
+    setIsAuthenticated(true);
+  };
+
   const notavailableyet = () => {
     alert("Coming Soon");
   };
@@ -31,15 +36,10 @@ const Auth = ({ setIsAuthenticated }) => {
       </motion.div>
       <div class="flex flex-row">
         <h1>Welcome to Ripener</h1>
-        <h3>
-          {" "}
-          The best site to level up your skill or find the best verified
-          engineers!{" "}
-        </h3>
       </div>
 
       <div className="auth-content flex flex-row">
-        <button className="github-login-button" onClick={notavailableyet}>
+        <button className="github-login-button" onClick={handleGithubLogin}>
           <img
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="GitHub logo"

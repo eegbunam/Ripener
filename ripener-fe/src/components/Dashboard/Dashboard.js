@@ -8,7 +8,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <User
-        name="Ebuka"
+        name="New User"
         icon="https://i.imgur.com/3Ux3xUe.png"
         skills={["Machine Learning", "iOS Development", "Backend Development"]}
         interests={[
