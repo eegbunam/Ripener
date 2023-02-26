@@ -15,12 +15,7 @@ const Auth = ({ setIsAuthenticated }) => {
     },
   };
 
-  // Handle GitHub login
-  const handleGithubLogin = () => {
-    // TODO: Implement GitHub authentication logic
-    setIsAuthenticated(true);
-  };
-
+  // Handle GitHub logi
   const notavailableyet = () => {
     alert("Coming Soon");
   };
