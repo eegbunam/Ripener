@@ -12,7 +12,6 @@ function App() {
       ) : (
         <Auth setIsAuthenticated={setIsAuthenticated} />
       )}
-      
     </div>
   );
 }

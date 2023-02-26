@@ -1,14 +1,17 @@
 .user {
+  background-color: var(--main-color);
+  color: #000000;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  /* border-radius: 20px 0 0 20px; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #272727;
-  /* border-radius: 20px; */
-  padding: 50px;
-  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
-  /*  full screen height*/
-  height: 100vh;
+  justify-content: space-between;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+  --main-color: #ffd46f;
+  left: 0;
+  top: 0;
 }
 
 .user-icon {
